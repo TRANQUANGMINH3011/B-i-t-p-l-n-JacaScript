@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="icon" href="image/spotify.webp">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        header .song_side::before{
+            background: url(artists/obito.jpg);
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="menu_side">
+            <h6 id="menu_list_active_button"><i class="bi bi-music-note-list"></i></h6>
+            <h1>Playlist</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="fa-solid fa-music"></i> Playlist</h4>
+                <h4><span></span><i class="fa-solid fa-music"></i> Last Listening</h4>
+                <h4><span></span><i class="fa-solid fa-music"></i> Recommended</h4>
+            </div>
+            <div class="menu_song">
+     
+            </div>
+        </div>
+        <div class="song_side">
+            <nav>
+                <ul>
+                    <a href="/Spotify/index.html" style="text-decoration: none;">
+                        <li>VIETNAMESE MUSIC</li>
+                    </a>
+                    <a href="inter.html" style="text-decoration: none;"><li>INTERNATIONAL MUSIC</li></a>
+                    
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Search Music...">
+                    <div class="search_results">
+                        <!-- <a href="" class="card">
+                            <img src="image/1.jpg" alt="">
+                            <div class="content">
+                                Yêu nhau nhé bạn thân
+                                <div class="subtitle">Phạm Đình Thái Ngân</div>
+                            </div>
+                        </a> -->
+                        
+                    </div> 
+                </div>
+                <div class="user">
+                    <img src="image/4c05b2b429cdcf6aea2de0c9e9e1aff4.jpg" alt="">
+                </div>
+            </nav>
+            <div class="content">
+                <h1>Obito</h1>
+                <p style="font-size: 12px; color: rgb(112, 111, 110);">Obito, whose real name is Nguyễn Hoàng Long, is a Vietnamese rapper and songwriter. <br> He gained significant recognition in the Vietnamese music scene for his unique style   <br> and lyrical prowess.  </p>
+                <div class="buttons">
+                    <button>PLay</button>
+                    <button>FOLLOW</button>
+                </div>
+            </div>
+            <div class="popular_song">
+                <div class="h4">
+                    <h4>Popular Song</h4>
+                    <div class="btn_s">
+                        <i class="bi bi-arrow-left-short" id="pop_song_left"></i>
+                        <i class="bi bi-arrow-right-short" id="pop_song_right"></i>
+                    </div>
+                </div>
+                <div class="pop_song">
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="image/song/th.jpg" alt="">
+                            <i class="bi playlistPlay bi-play-circle-fill" id="1"></i>
+                        </div>
+                        <h5>Yêu nhau nhé bạn thân <br>
+                            <div class="subtitle">Phạm Đình Thái Ngân</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="image/song/th (1).jpg" alt="">
+                            <i class="bi playlistPlay bi-play-circle-fill" id="2"></i>
+                        </div>
+                        <h5>Xin đừng lặng im<br>
+                            <div class="subtitle">Soobin Hoàng Sơn</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="image/song/th (1).jpg" alt="">
+                            <i class="bi playlistPlay bi-play-circle-fill" id="3"></i>
+                        </div>
+                        <h5>On My Way <br>
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="image/song/th (1).jpg" alt="">
+                            <i class="bi playlistPlay bi-play-circle-fill" id="4"></i>
+                        </div>
+                        <h5>On My Way <br>
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="image/song/th (1).jpg" alt="">
+                            <i class="bi playlistPlay bi-play-circle-fill" id="5"></i>
+                        </div>
+                        <h5>On My Way <br>
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="image/song/th (1).jpg" alt="">
+                            <i class="bi playlistPlay bi-play-circle-fill" id="6"></i>
+                        </div>
+                        <h5>On My Way <br>
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>
+                    </li>
+                    <li class="songItem">
+                        <div class="img_play">
+                            <img src="image/song/th (1).jpg" alt="">
+                            <i class="bi playlistPlay bi-play-circle-fill" id="7"></i>
+                        </div>
+                        <h5>On My Way <br>
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>
+                    </li>
+                    
+                        
+                    
+                </div>
+            </div>
+            <div class="popular_artists">
+                <div class="h4">
+                    <h4>Popular Artist</h4>
+                    <div class="btn_s">
+                        <i class="bi bi-arrow-left-short" id="pop_art_left"></i>
+                        <i class="bi bi-arrow-right-short" id="pop_art_right"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <li>
+                        <a href="sontung.html"><img src="cicrle/sontung.jpg" alt="" title="Sơn Tùng M-TP"></a>
+                    </li>
+                    <li>
+                        <a href="vu.html"><img src="cicrle/vu-cicrle.webp" alt="" title="Vũ"></a>
+                    </li>
+                    <li>
+                        <a href="mck.html"><img src="cicrle/mck-cicrle.jpg" alt="" title="MCK"></a>
+                    </li>
+                    <li>
+                        <a href="obito.html"><img src="cicrle/obito.jpg" alt="" title="Obito"></a>
+                    </li>
+                    <li>
+                        <img src="cicrle/d gray.jpg" alt="" title="Grey D">
+                    </li>
+                    <li>
+                        <img src="cicrle/noo pt.webp" alt="" title="Noo Phước Thịnh">
+                    </li>
+                    <li>
+                        <img src="cicrle/suni ha linh.jpg" alt="" title="Suni HẠ Linh">
+                    </li>
+                    <li>
+                        <img src="cicrle/only c.jpg" alt="" title="Only C">
+                    </li>
+                    <li>
+                        <img src="cicrle/da lab.jpg" alt="" title="Da Lab">
+                    </li>
+                    <li>
+                        <img src="cicrle/andiez.jpg" alt="" title="ANDIEZ">
+                    </li>
+                    <li>
+                        <img src="cicrle/hth.jpg" alt="" title="HIEUTHUHAI">
+                    </li>
+                    <li>
+                        <img src="cicrle/lou hoang.jpg" alt="" title="LOU HOÀNG">
+                    </li>
+                    <li>
+                        <img src="cicrle/soobin.jpg" alt="" title="Soobin Hoàng Sơn" >
+                    </li>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="master_play">
+            <div class="wave" id="wave">
+                <div class="wavel"></div>
+                <div class="wavel"></div>
+                <div class="wavel"></div>
+            </div>
+            <img src="image/load.gif" alt="" id="poster_master_play">
+            <h5 id="title">
+                
+                <div class="subtitle"></div>
+            </h5>
+            <div class="icon">
+                <i class="bi shuffle bi-music-note-beamed">next</i>
+                <i class="bi bi-skip-start-fill" id="back"></i>
+                <i class="bi bi-play-fill" id="masterPlay"></i>
+                <i class="bi bi-skip-end-fill" id="next"></i>
+                <a href="" download id="download_music"><i class="bi bi-cloud-arrow-down-fill"></i></a>
+            </div>
+            <span id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek" min="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span id="currentEnd">0:30</span>
+            <div class="vol">
+                <i class="bi bi-volume-up-fill" id="vol_icon"></i>
+                <input type="range" min="0" max="100" id="vol">
+                <div class="vol_bar"></div>
+                <div class="dot" id="vol_dot"></div>
+            </div>
+        </div>
+
+    </header>
+
+
+
+
+
+    <script src="obito.js"></script>
+
+</body>
+</html>
